@@ -8,9 +8,13 @@ header {
 body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 20px;
-    color:#333
+    color:#333;
+	background-image: url('../imagenes/unknown.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+    width: 100%;
 }
-
 p {
     padding: 15px;
 	font-size: 15px;
@@ -20,7 +24,13 @@ p {
 #wrapper {
     margin: 0 auto;
     width: 1000px;
-	
+}
+#informacion {
+	width: 100%;
+	background: rgba(255,255,255,0.3);
+    /*border-radius: 10px;*/
+	float: left;
+	margin-left: 0.7%;
 }
 
 #headerwrap {
@@ -32,7 +42,7 @@ p {
 
 #header {
     height: 75px;
-    background: #40CFFF;
+    /*background: #40CFFF;*/
     /*border-radius: 10px;*/
     /*border: 1px solid #eb8908;*/
     margin: 5px;
@@ -66,6 +76,14 @@ p {
 }
 .textoblanco:hover{
 	background-color: #434343;
+}
+.envolverimagenizq {
+	float: left;
+	margin: 15px;
+}
+.envolverimagender {
+	float: right;
+	margin: 15px;
 }
 #contentwrap {    /*Bloque 800px*/ 
     width: 800px;
@@ -103,21 +121,21 @@ p {
     margin: 0 auto;
 }
 #content {
-    background: #FFFFFF;
+    /*background: #FFFFFF;*/
     /*border-radius: 10px;*/
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
     margin: 5px;
 }
 #contentNoMargin {
     background: #FFFFFF;
     /*border-radius: 10px;*/
-    border: 1px solid #ebebeb;
+    /*border: 1px solid #ebebeb;*/
 	margin: 0px;
 }
 #contentNoMargin2 {
     background: #8B9068;
     /*border-radius: 10px;*/
-    border: 1px solid #ebebeb;
+    /*border: 1px solid #ebebeb;*/
 	margin: 0px;
 }
 
