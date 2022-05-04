@@ -9,18 +9,26 @@ body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 20px;
     color:#333;
-	background-image: url('../imagenes/unknown.png');
+	background-image: url('../imagenes/fondohorizontal.png');
     background-size: cover;
     background-repeat: no-repeat;
 	background-attachment: fixed;
     width: 100%;
 }
 p {
-    padding: 15px;
+    padding: 16px;
 	font-size: 15px;
 	line-height: 18px;
 }
-
+h2 {
+	padding: 15px;
+	font-size: 25px;
+	line-height: 18px;
+}
+h3{
+	padding: 5px;
+	font-size: 20px;
+}
 #wrapper {
     margin: 0 auto;
     width: 1000px;
@@ -97,7 +105,6 @@ p {
 }
 #contentwrapExtendedNoMargin {  /*bloque de abajo que contiene a otros dos*/
     width: 1000px; 
-	height: 100px;
     float: left;
 	margin: 0px;
 }
@@ -138,16 +145,32 @@ p {
     /*border: 1px solid #ebebeb;*/
 	margin: 0px;
 }
-
 #rightcolumnwrap {
     width: 200px;
+	margin-left: -40px;
+	margin-top: 20px;
     float: left;
-	margin: 0 auto;
 }
 #rightcolumnwrap2 {
     width: 333px;
     float: left;
     margin: 0 auto;
+}
+#alineavertical{
+	width: 333px;
+	height: 500px;
+    margin: 0 auto;
+	display: table;
+}
+#alineaverticalcelda{
+	height: 20px;
+    /*background: #40CFFF;*/
+    /*border-radius: 10px;*/
+    /*border: 1px solid #eb8908;*/
+    margin: 5px;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
 }
 #alineadivs {
 	height: 500px;
@@ -158,7 +181,7 @@ p {
 }
 
 #rightcolumn {
-    background: #CC33FF;
+    /*background: #CC33FF;*/
     /*border-radius: 10px;*/
     border: 1px solid #b81feb;
     margin: 5px;
