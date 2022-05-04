@@ -35,7 +35,7 @@ h3{
 }
 #informacion {
 	width: 100%;
-	background: rgba(255,255,255,0.3);
+	background: rgba(255,255,255,0.4);
     /*border-radius: 10px;*/
 	float: left;
 	margin-left: 0.7%;
@@ -92,6 +92,30 @@ h3{
 .envolverimagender {
 	float: right;
 	margin: 15px;
+}
+#contentwraptiers {    /*Bloque 900px poara los tiers*/ 
+    width: 900px;
+    float: left;
+    margin-left: 50px;
+	text-align: center;
+}
+#contentwraptiers1 {  /*bloque contenido1*/
+    width: 450px; 
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	float: left;
+	text-align: center;
+}
+#contentwraptiers2 {  /*bloque contenido2*/
+    width: 450px; 
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: -10px;
+	margin-top: 0px;
+	float: left;
+	text-align: center;
 }
 #contentwrap {    /*Bloque 800px*/ 
     width: 800px;
