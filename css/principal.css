@@ -20,6 +20,11 @@ p {
 	font-size: 15px;
 	line-height: 18px;
 }
+ul {
+	padding: 16px;
+	font-size: 15px;
+	line-height: 18px;
+}
 h2 {
 	padding: 15px;
 	font-size: 25px;
@@ -28,6 +33,7 @@ h2 {
 h3{
 	padding: 5px;
 	font-size: 20px;
+	line-height: 12px;
 }
 #wrapper {
     margin: 0 auto;
@@ -85,6 +91,10 @@ h3{
 .textoblanco:hover{
 	background-color: #434343;
 }
+.centrar{
+	margin:auto;
+	display:block;
+}
 .envolverimagenizq {
 	float: left;
 	margin: 15px;
@@ -96,8 +106,8 @@ h3{
 #contentwraptiers {    /*Bloque 900px poara los tiers*/ 
     width: 900px;
     float: left;
-    margin-left: 50px;
-	text-align: center;
+    margin-left: 60px;
+	/*text-align: center;*/
 }
 #contentwraptiers1 {  /*bloque contenido1*/
     width: 450px; 
@@ -106,7 +116,7 @@ h3{
 	margin-bottom: 0px;
 	margin-top: 0px;
 	float: left;
-	text-align: center;
+	/*text-align: center;*/
 }
 #contentwraptiers2 {  /*bloque contenido2*/
     width: 450px; 
@@ -115,7 +125,7 @@ h3{
 	margin-bottom: -10px;
 	margin-top: 0px;
 	float: left;
-	text-align: center;
+	/*text-align: center;*/
 }
 #contentwrap {    /*Bloque 800px*/ 
     width: 800px;
