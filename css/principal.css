@@ -168,14 +168,14 @@ h3{
     margin: 5px;
 }
 #contentNoMargin {
-    background: #FFFFFF;
-    /*border-radius: 10px;*/
+    background: #8B9068;
+    border-radius: 10px;
     /*border: 1px solid #ebebeb;*/
 	margin: 0px;
 }
 #contentNoMargin2 {
     background: #8B9068;
-    /*border-radius: 10px;*/
+    border-radius: 10px;
     /*border: 1px solid #ebebeb;*/
 	margin: 0px;
 }
