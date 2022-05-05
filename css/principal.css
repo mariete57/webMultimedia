@@ -49,13 +49,13 @@ h3{
 
 #headerwrap {
     width: 1000px;
+	height: 146px;
     float: left;
     margin: 0 auto;
 	display: table;
 }
 
 #header {
-    height: 75px;
     /*background: #40CFFF;*/
     /*border-radius: 10px;*/
     /*border: 1px solid #eb8908;*/
@@ -110,6 +110,12 @@ h3{
 .zoom {
     /*border: 2px solid #FFF;*/
 }
+.fondoblanco{
+	background: #DBDBDB;
+}
+.fondodorado{
+	background-color: #8B9068;
+}
 #contentwraptiers {    /*Bloque 900px poara los tiers*/ 
     width: 900px;
     float: left;
@@ -134,10 +140,11 @@ h3{
 	float: left;
 	/*text-align: center;*/
 }
-#contentwrap {    /*Bloque 800px*/ 
+#contentwrap {    /*Bloque 800px lo usan el video y el disquss*/  
+	float: left;
     width: 800px;
-    float: left;
-    margin: 0 auto;
+	height: 400px;
+	margin-left: 115px;
 }
 #contentwrapExtended { /*Bloque de 1000px*/
     width: 1000px;
@@ -147,7 +154,7 @@ h3{
 #contentwrapExtendedNoMargin {  /*bloque de abajo que contiene a otros dos*/
     width: 1000px; 
     float: left;
-	margin: 0px;
+	margin-top: 10px;
 }
 #contentwrapInside {  /*bloque contenido1*/
     width: 900px; 
@@ -175,13 +182,11 @@ h3{
     margin: 5px;
 }
 #contentNoMargin {
-    background: #8B9068;
     border-radius: 10px;
     /*border: 1px solid #ebebeb;*/
 	margin: 0px;
 }
 #contentNoMargin2 {
-    background: #8B9068;
     border-radius: 10px;
     /*border: 1px solid #ebebeb;*/
 	margin: 0px;
